@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Stats from "./pages/stats.jsx";
-import { getToken } from "./lib/request.js";
 
 const router = createBrowserRouter([
   {
