@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Light font */
+@font-face {
+  font-family: "ProductSans-light";
+  src: url('./assets/font/product-sans/ProductSans-Light.ttf') format('truetype');
+  /* Add additional formats if necessary */
+  font-weight: light;
+  font-style: normal;
+}
+
+/* Regular font */
+@font-face {
+  font-family: "ProductSans-regular";
+  src: url('./assets/font/product-sans/ProductSans-Regular.ttf') format('truetype');
+  /* Add additional formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Medium font */
+@font-face {
+  font-family: "ProductSans-medium";
+  src: url('./assets/font/product-sans/ProductSans-Medium.ttf') format('truetype');
+  /* Add additional formats if necessary */
+  font-weight: medium;
+  font-style: normal;
+}
+
+/* Bold font */
+@font-face {
+  font-family: "ProductSans-bold";
+  src: url('./assets/font/product-sans/ProductSans-Bold.ttf') format('truetype');
+  /* Add additional formats if necessary */
+  /* font-weight: bold; */
+  font-style: normal;
+}
+
+body {
+  font-family: "ProductSans-regular";
+}
+
+.font-light {
+  font-family: "ProductSans-light";
+}
+
+.font-regular {
+  font-family: "ProductSans-regular";
+}
+
+.font-medium {
+  font-family: "ProductSans-medium";
+}
+
+.font-bold {
+  font-family: "ProductSans-bold";
+}
